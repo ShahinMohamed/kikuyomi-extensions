@@ -1,0 +1,28 @@
+{
+  "id": "org.kikuyomi.libgen.li",
+  "name": "Library Genesis (LI)",
+  "version": "1.0.2",
+  "versionCode": 3,
+  "apiVersion": "1.2",
+  "minAppVersion": "1.0.0",
+  "author": "Kikuyomi Dev",
+  "contentRating": "everyone",
+  "domains": [
+    "libgen.li",
+    "*.libgen.li",
+    "booksdl.lc",
+    "*.booksdl.lc",
+    "cloudflare-ipfs.com",
+    "*.cloudflare-ipfs.com"
+  ],
+  "capabilities": ["bookFile"],
+  "sources": [
+    {
+      "key": "libgen_li",
+      "name": "Libgen EPUBs",
+      "lang": "en",
+      "versionId": 2,
+      "kind": "text"
+    }
+  ]
+}
